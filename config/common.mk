@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
     LockClock \
+    Terminal \
     CMUpdater \
     CMAccount \
     CMHome
