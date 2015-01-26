@@ -3,7 +3,8 @@
 HALF_RES_RESOLUTIONS="240 320 360 480 540 600 1440"
 
 for i in $HALF_RES_RESOLUTIONS; do
-	mkdir $i
+	rm -f $i.zip
+        mkdir $i
 	cd $i
 	if [ -f ../../$(($i/2)).zip ]; then
 		# use the existing scaled images
