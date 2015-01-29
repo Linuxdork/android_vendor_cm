@@ -141,6 +141,7 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     Eleven \
     LockClock \
+    AudioFX \
     Terminal \
     CMUpdater \
     CMAccount \
